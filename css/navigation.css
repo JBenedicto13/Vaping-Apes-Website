@@ -1,0 +1,62 @@
+.navigation {
+	width: 100%;
+	position: absolute;
+	padding-top: 20px;
+	overflow: hidden;
+}
+
+.navigation ul {
+	width: 80%;
+	display: block;
+	margin: auto;
+}
+
+.navigation ul li {
+	list-style: none;
+}
+
+.navigation ul .logo-icon a img {
+	width: 64px;
+	height: 64px;
+	border: none;
+	border-radius: 100%;
+	float: left;
+}
+
+.navigation ul .hamburger-icon a img {
+	width: 36px;
+	height: 36px;
+	float: right;
+	margin-top: 13px;
+}
+
+.navigation ul .cart-icon a img {
+	width: 36px;
+	height: 36px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 36px;
+}
+
+.navigation ul .close-icon a img {
+	width: 24px;
+	height: 24px;
+	float: right;
+	margin-top: 18px;
+}
+
+.navigation ul .close-icon {
+	display: none;
+}
+
+.navigation ul li.show_fname a {
+	color: #f8f9fa;
+	font-size: 24px;
+	float: right;
+	margin-top: 18px;
+	margin-right: 25px;
+	padding-right: 25px;
+	text-decoration: none;
+	border-right: 1px solid #f8f9fa;
+	cursor: pointer;
+}

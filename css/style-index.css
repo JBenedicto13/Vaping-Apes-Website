@@ -1,0 +1,21 @@
+#vid-banner {
+	position: fixed;
+	z-index: -1;
+  	right: 0;
+  	bottom: 0;
+}
+
+#btn-explore a {
+	padding: 5px 24px;
+	font-size: 22px;
+	font-style: normal;
+	color: #e9ecef;
+	background-color: transparent;
+	border: solid #e9ecef 1px;
+	text-decoration: none;
+}
+
+#btn-explore a:hover {
+	color: #000;
+	background-color: #e9ecef;
+}

@@ -1,0 +1,74 @@
+.add-form {
+    margin-top: 75px;
+    border: 1px solid #f8f9fa;
+    border-radius: 10px;
+    padding: 10px 0 20px 25px;
+}
+
+.add-form .row h3 {
+    padding: 10px 16px ;
+}
+
+.add-form .row .cols input:not(#prod-image) {
+    font-size: 18px;
+}
+
+.add-form .add-prod {
+    margin-top: 20px;
+}
+
+.add-form .add-prod .btn-add {
+    width: 300px;
+}
+
+#preview-img {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    border: solid 1px #f8f9fa;
+    right: 12%;
+    top: 40%;
+}
+
+#preview-img img {
+    height: 100px;
+    width: auto;
+}
+
+.Products-div {
+    text-align: center;
+}
+
+.Products-div .tblProducts {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 50px;
+}
+
+.Products-div .tblProducts tr:nth-child(odd) {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.Products-div .tblProducts th {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.Products-div .tblProducts tr td {
+    padding: 10px 0;
+}
+
+.Products-div .tblProducts tr .table_action a {
+    padding: 2px 6px;
+}
+.modal .modal-dialog .modal-content .modal-body {
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+}
+

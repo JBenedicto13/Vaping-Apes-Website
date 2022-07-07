@@ -1,0 +1,12 @@
+Website: https://jbenedicto.000webhostapp.com/Vaping-Apes-Website/pages/home.php
+Back-end: https://jbenedicto.000webhostapp.com/Vaping-Apes-Website/admin/admin-login.php
+
+Username: admin
+Password: admin1234
+
+Members:
+Almario, Diana Angelica S.
+Benedicto, John Benedict T.
+Escoto, Carizza Colean
+Estacio, Kenneth L.
+Nuqui, Joshua Daniel T.

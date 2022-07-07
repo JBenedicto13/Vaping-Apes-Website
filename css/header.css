@@ -1,0 +1,69 @@
+.hamburger-menu, .hamburger-menu-id, .header {
+	width: 100%;
+	height: 768px;
+}
+
+.header {
+	background-color: #212529;
+}
+
+.header .hamburger-menu {
+	width: 45%;
+	position: absolute;
+	left: 10%;
+	top: 25%;
+	display: none;
+}
+
+.header .hamburger-menu ul {
+	list-style: none;
+}
+
+.header .hamburger-menu ul li a{
+	text-decoration: none;
+	color: #212529;
+	font-size: 72px;
+}
+
+.header .hamburger-menu ul li a:hover{
+	color: #adb5bd;
+}
+
+.header .hamburger-menu-side {
+	width: 15%;
+	position: absolute;
+	left: 75%;
+	top: 25%;
+	display: none;
+}
+
+.header .hamburger-menu-side ul {
+	list-style: none;
+	margin-top: 15px;
+}
+
+.header .hamburger-menu-side ul li a{
+	text-decoration: none;
+	color: #212529;
+	font-size: 24px;
+}
+
+.header .hamburger-menu-side ul li a:hover{
+	color: #adb5bd;
+}
+
+.header .header-contents {
+	width: 45%;
+	position: absolute;
+	left: 10%;
+	top: 25%;
+	color: #f8f9fa;
+}
+
+.header .header-contents h1 {
+	font-size: 80px;
+}
+
+.header .header-contents p {
+	font-size: 32px;
+}

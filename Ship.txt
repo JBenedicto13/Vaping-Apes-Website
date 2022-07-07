@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Account</title>
+	<link rel="stylesheet" type="text/css" href="css/style-create.css">
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<ul>
+				<li class="logo-icon"><a href="#"><img src="images/vaping-apes-logo.jpg"></a></li>
+				<li class="hamburger-icon" id="show" onclick="show_menu()"><a href="#"><img src="images/hamburger-menu-icon-white.png"></a></li>
+				<li class="close-icon" id="close" onclick="close_menu()"><a href="#"><img src="images/close-menu-icon.png"></a></li>
+			</ul>
+		</div>
+		<div class="header" id="header-id">
+			<div class="hamburger-menu" id="hamburger-menu-id">
+				<ul>
+					<li><a href="#"><b>HOME</b></a></li>
+					<li><a href="#"><b>PRODUCTS</b></a></li>
+					<li><a href="#"><b>ABOUT</b></a></li>
+					<li><a href="#"><b>CONTACT</b></a></li>
+				</ul>
+			</div>
+			<div class="hamburger-menu-side" id="hamburger-menu-side-id">
+				<ul>
+					<li style="font-size: 18px;">Login or Create Account</li>
+					<li><a href="#">LOGIN</a></li>
+					<li><a href="#">CREATE ACCOUNT</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="contents" id="contents-id">
+			<div class="contents-container">
+				<h1>Create Account</h1>
+				<br>
+				<form>
+					<table>
+						<tr>
+							<td><label>First Name</label></td>
+						</tr>
+						<tr class="textbox">
+							<td><input type="text" name="txtFname"></td>
+						</tr>
+
+						<tr>
+							<td><label>Last Name</label></td>
+						</tr>
+						<tr class="textbox">
+							<td><input type="text" name="txtLname"></td>
+						</tr>
+
+						<tr>
+							<td><label>Email</label></td>
+						</tr>
+						<tr class="textbox">
+							<td><input type="text" name="txtEmail"></td>
+						</tr>
+
+						<tr>
+							<td><label>Phone</label></td>
+						</tr>
+						<tr class="textbox">
+							<td><input type="text" name="txtPhone"></td>
+						</tr>
+
+						<tr>
+							<td><label>Street Address</label></td>
+						</tr>
+						<tr class="textbox">
+							<td><input type="text" name="txtStreetAddress"></td>
+						</tr>
+
+						<tr>
+							<td style="padding-bottom: 30px;">
+								<table>
+								<tr>
+									<td><label>City</label></td>
+									<td><label>Zip Code</label></td>
+								</tr>
+								<tr>
+									<td><input type="text" name="txtCity" class="half-input"></td>
+									<td><input type="text" name="txtZipCode" class="half-input"></td>
+								</tr>
+								</table>
+							</td>
+						</tr>
+
+						<tr>
+							<td><label>Country/Region</label></td>
+						</tr>
+						<tr class="textbox">
+							<td><input type="text" name="txtCountryRegion"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div class="terms">
+				
+			</div>
+		</div>
+
+		<div class="footer" id="footer-id">
+			<div class="footer-content">
+				<p>Vaping Apes Vape Shop &#169; 2021</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

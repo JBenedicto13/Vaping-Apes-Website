@@ -1,0 +1,12 @@
+black - 212529
+black 2 - 343a40
+grey - adb5bd
+white - f8f9fa
+white 2 - e9ecef
+
+SELECT Id, Category, Product_Name, brand_name, Price, Image
+FROM tblproducts p
+INNER JOIN tblbrands b ON b.brand_id = p.Brand_Id
+INNER JOIN tblprodcat c ON c.cat_id = p.Category_Id
+
+QvT2mOSyA%sL)kEi

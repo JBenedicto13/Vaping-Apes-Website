@@ -1,0 +1,172 @@
+.main-container {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #212529;
+    position: relative;
+}
+
+.right-col {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #f8f9fa;
+}
+
+.topnav {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    overflow-x: hidden;
+    padding-right: 20px;
+}
+
+.topnav a {
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f8f9fa;
+    display: block;
+    float: right;
+    transition: 0.2s ease;
+}
+
+.topnav a:hover {
+    color: #e9ecef;
+}
+
+.topnav a img {
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #212529;
+    display: block;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.sidenav a:hover {
+    color: #f8f9fa;
+    background-color: #343a40;
+}
+
+.sidenav .active {
+    color: #f8f9fa;
+    background-color: #343a40;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.sidenav .title-div {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #212529;
+}
+
+.items {
+    margin: 20px 0;
+}
+
+.settings-div {
+    height: 15%;
+    border-top: 1px solid #212529;
+    margin-top: 20px;
+}
+
+#collapseLogout {
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    left: 90%;
+    margin-top: 50px;
+}
+
+#collapseLogout div ul {
+    list-style: none;
+}
+
+#collapseLogout div ul li{
+    display: block;
+    float: right;
+}
+
+.report {
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.rep-card {
+    color: #212529;
+    width: 250px;
+    height: 200px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    float: left;
+    margin-top: 75px;
+    text-align: center;
+}
+
+.rep-card div {
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.rep-card h5 {
+    margin-top: 50px;
+}
+
+.Orders-div {
+    text-align: center;
+}
+
+.Orders-div .tblOrders {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 50px;
+}
+
+.Orders-div .tblOrders tr:nth-child(odd) {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.Orders-div .tblOrders th {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.Orders-div .tblOrders tr td {
+    padding: 10px 0;
+}

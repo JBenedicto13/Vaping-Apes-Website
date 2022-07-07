@@ -1,0 +1,52 @@
+.contents {
+	width: 100%;
+	height: auto;
+	color: #f8f9fa;
+	background-color: #212529;
+}
+
+.contents .contents-container {
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.contents .contents-container h1 {
+	font-size: 48px;
+}
+
+.contents .contents-container p {
+	font-size: 32px;
+}
+
+.contents .contents-container .frmSignup .tblSignup .textbox td{
+	padding-bottom: 30px;
+}
+
+.contents .contents-container .frmSignup .tblSignup tr td label {
+	font-size: 16px;
+	color: #f8f9fa;
+}
+
+.contents .contents-container .frmSignup .alt-sign {
+	text-align: center;
+}
+
+.contents .contents-container .frmSignup .alt-sign a {
+	font-size: 16px;
+	text-decoration: none;
+	color: #f8f9fa;
+}
+
+.contents .contents-container .frmSignup .tblSignup tr td input {
+	font-size: 18px;
+	padding: 8px 24px;
+}
+.contents .contents-container .frmSignup .tblSignup .textbox input {
+	width: 350px;
+}
+.contents .contents-container .frmSignup .tblSignup {
+	margin-left: auto;
+	margin-right: auto;
+}
+
